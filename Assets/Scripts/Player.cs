@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// INHERITANCE
 public class Player : GameEntity
 {
     public GameObject BulletPrefab;
@@ -15,6 +16,7 @@ public class Player : GameEntity
         HandleMovement();
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            // ABSTRACTION
             Shoot();
         }
     }

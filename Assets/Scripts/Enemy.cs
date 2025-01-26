@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// INHERITANCE
 public class Enemy : GameEntity
 {
     private void Start()
@@ -12,6 +13,7 @@ public class Enemy : GameEntity
         Move();
     }
 
+    // POLIMORPHISM
     public override void Move()
     {
         base.Move();
